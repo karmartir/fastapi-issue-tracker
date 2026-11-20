@@ -20,3 +20,6 @@ app.add_middleware(
 
 app.include_router(issues_router)
 
+#  Thanks To Brad Traversy for the FastAPI crash course which I used as a reference for this project.
+#  https://github.com/bradtraversy/fastapi-issue-tracker/blob/main/docs/crash_course.md
+# Future upgraded todo: Add authentication and authorization.
